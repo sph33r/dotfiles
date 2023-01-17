@@ -26,3 +26,7 @@ vim.keymap.set('n', '<A-9>', '<Cmd>BufferGoto 9<CR>', { noremap = true, silent =
 vim.keymap.set('n', '<A-0>', '<Cmd>BufferLast<CR>', { noremap = true, silent = true })
 -- Close buffer
 vim.keymap.set('n', '<Leader>bc', '<Cmd>BufferClose<CR>', { noremap = true, silent = true })
+
+-- fterm
+vim.keymap.set('n', '<A-i>', '<CMD>lua require("FTerm").toggle()<CR>')
+vim.keymap.set('t', '<A-i>', '<C-\\><C-n><CMD>lua require("FTerm").toggle()<CR>')
