@@ -1,0 +1,11 @@
+vim.o.relativenumber = true
+vim.o.tabstop = 2
+vim.o.shiftwidth = 2
+vim.o.softtabstop = 2
+vim.o.expandtab = true
+vim.o.smartindent = true
+vim.o.hlsearch = false
+vim.o.wrap = true
+vim.o.splitbelow = true -- when you :split make the window open below
+vim.o.splitright = true -- when you :vsplit make the window open to the right
+vim.o.clipboard = 'unnamedplus'
